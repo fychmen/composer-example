@@ -1,0 +1,22 @@
+{
+    "name": "fych/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Yevhen Fychak",
+            "email": "fychmen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "fych\\parser\\": "src/"
+        }
+    },
+
+    "minimum-stability": "stable"
+}
